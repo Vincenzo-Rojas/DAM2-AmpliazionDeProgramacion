@@ -1,4 +1,4 @@
-mnist sin bits, + cabecera
+mnist sin bits + cabecera
 j48 - 88.4198%
 randomforest - 96.6583%
-IBK - 
+IBK - 97.31
