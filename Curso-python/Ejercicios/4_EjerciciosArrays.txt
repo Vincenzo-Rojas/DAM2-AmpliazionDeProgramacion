@@ -1,0 +1,27 @@
+﻿1. Rellenar y mostrar un array de tamaño 10 con números del 0 al 9
+2. Rellenar y mostrar un array de tamaño 10 con numeros del 10 al 20
+3. Rellenar y mostrar un array de tamaño 10 con numeros del 10 al 1
+4. Rellenar y mostrar un array de tamaño 10 con numeros pares del 2 al 20
+5. Rellenar un array con números introducidos por el usuario y mostrarlo
+6. Rellenar y mostrar un array de tamaño 10 con la tabla de multiplicar de un número aleatorio
+7. Rellenar dos arrays de tamaño 10 con números aleatorios, muéstralos. A continuación, sumalos guardando el resultado en el primer array. La suma se realiza elemento a elemento como si fueran vectores.
+8. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, pide al usuario que introduzca un número. En caso de estar dicho número, el programa deberá indicar la posición o posiciones donde se encuentre dentro del array.
+9. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, pide al usuario que introduzca dos números correspondientes a dos posiciones. En caso de ser posiciones válidas, el programa deberá intercambiar los valores de dichas posiciones
+10. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, muestra el mayor y el menor de los números y las posiciones donde se encuentran.
+11. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, muestra la suma y la media de todos los valores.
+12. Crea un array de números aleatorios de un tamaño pasado por teclado. El array contendrá números aleatorios entre 1 y 300 y se deberá mostrar aquellos números que acaben en un dígito que el usuario indique por teclado. Se debe controlar que se introduce un numero correcto, estos deben guardarse en un nuevo array.
+13. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, desplaza todos los elementos una posición a la derecha y muestra el array
+14. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, desplaza todos los elementos una posición a la izquierda y muestra el array
+15. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, invierte todos los elementos y muestra el array. El elemento de la posición 0 se intercambia por el de la 9, la 1 por la 8 ...
+16. Crea un array de números y otro de String de 10 posiciones donde insertaremos notas entre 0 y 10 (debemos controlar que inserte una nota valida), pudiendo ser decimal la nota en el array de números, en el de Strings se insertaran los nombres de los alumnos.
+Después, crearemos un array de String donde insertaremos el resultado de la nota con palabras.
+
+Si la nota esta entre 0 y 4,99 , sera un suspenso
+Si esta entre 5 y 6,99 , sera un bien.
+Si esta entre 7 y 8,99 sera un notable.
+Si esta entre 9 y 10 sera un sobresaliente.
+Muestra por pantalla, el alumno su nota y su resultado en palabras.
+
+17. Crea dos arrays de tamaño 5 y rellenalos manualmente. El programa deberá indicar si los dos arrays son iguales
+18. Pide al usuario que introduzca un número. Los dígitos de dicho número deberán pasarse a un array. A continuación, deberá indicarse si el número es capicua (se lee igual en los dos sentidos)
+19. Genera un número aleatorio entre 5 y 10, ambos incluidos. A continuación, crea un array cuya longitud sea la del número generado y rellenado con números aleatorios. El array no debe mostrarse. Después, el programa pedirá números al usuario que deberá adivinar los números contenidos en el array. Para ello, el programa sólo permitirá 3 fallos, es decir, 3 números NO CONTENIDOS en el array que el usuario haya seleccionado. El programa terminará cuando el usuario haya adivinado todos los números, o cuando haya fallado 3 veces o si el usuario introduce un número negativo.
