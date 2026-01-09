@@ -1,0 +1,24 @@
+1 - Rellenar y mostrar una matriz de tamaño 10x10 con numeros del 1 al 100
+2 - Rellenar y mostrar una matriz de tamaño 10x10 con numeros del 100 al 1
+3 - Rellenar y mostrar una matriz de tamaño 5x3 con numeros pares aleatorios de entre 2 y 20
+4 - Rellenar y mostrar una matriz de tamaño 5x5 con numeros aleatorios. A continuación, calcula y muestra la suma de todos sus elementos
+5 - Rellenar y mostrar una matriz de tamaño 5x5 con numeros aleatorios. A continuación, calcula y muestra la suma de los numeros impares
+6 - Rellenar y mostrar una matriz de tamaño 5x5 con numeros aleatorios. A continuación, pide al usuario un número. El programa deberá indicar TODAS las posiciones donde se encuentre dicho número
+7 - Rellenar y mostrar una matriz de tamaño 5x6 con numeros aleatorios. A continuación, genera una segunda matriz como resultado de trasponer la primera matriz(invertir filas y columnas)
+
+8 - Rellenar y mostrar una matriz de tamaño 5x5 con numeros aleatorios. A continuación, convierte la matriz en una matriz triangular inferior, es decir, pon a cero los elemento de encima de la diagonal
+
+9 - Rellenar y mostrar una matriz de tamaño 5x5 con numeros aleatorios. A continuación, crea 2 arrays de 5 elementos y guarda en cada uno la suma de las filas de la matriz y la suma de las columnas
+
+10 - Representa un tablero de ajedrez en una matriz y muestralo por pantalla
+     peon p
+     torre t
+     caballo c
+     alfil a
+     reina r
+     rey k
+     ' ' (espacio en blanco) para las casillas vacias
+    
+     Usa minúsculas para las blancas y mayúsculas para las negras
+    
+11 - Implementa un movimiento de uno de los peones del tablero

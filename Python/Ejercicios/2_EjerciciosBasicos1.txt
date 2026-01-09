@@ -1,0 +1,26 @@
+1)Escribir un programa que lea una nota de un examen por teclado y devuelva la calificación que tiene. La calificación podrá ser: Suspenso (0-4.99), Aprobado(5-6.99), Notable (7-8.99), Sobresaliente(9-9.99) o Matricula de Honor (10).
+
+2)Mejore el ejercicio anterior de modo que si el usuario introduce un valor menor que cero o un valor mayor que 10 se muestre por pantalla un mensaje de error y finalice el programa.
+
+3)Escribir un programa que lea dos números enteros por teclado y determine cuál es el mayor y cual es el menor. También deberá considerar el caso en el que los dos números sean iguales.
+
+4)Escribir un programa que lea tres números enteros por teclado y muestre por pantalla el mayor de los tres.
+
+5)Escribir un programa que lea tres números enteros por teclado y emita un mensaje indicando si están o no en ordenados en orden creciente.
+
+---------------------
+Nuevos
+---------------------
+
+a)Imprimir los números pares desde el 40 hasta el 60, ambos inclusive
+b)Imprimir los números 48, 52, 56, …, 120
+c)Calcular e imprimir la suma 1+2+3+4+5+…+50
+d)Calcular e imprimir el producto 1*2*3*4*5*…*20
+e)Calcular e imprimir la suma 50+48+46+44+…+20
+f)Programa que imprima los números impares desde el 100 hasta la unidad y calcule su suma
+g)Imprimir los números del 1 al 100 y calcular la suma de todos los números pares por un lado, y por otro, la de los impares.
+h)Introducir dos números por teclado. Imprimir los números que hay entre ellos comenzando por el más pequeno. Contar cuantos hay y cuantos de ellos son pares. Calcular la suma de los pares
+i)Imprimir y contar los números múltiplos de 3 que hay entre 1 y 100
+j)Imprimir, sumar y contar los números que son a la vez múltiplos de 2 y de 3, que hay entre la unidad y un determinado número introducido por el teclado.
+k)Introducir dos valores A y B: Si A>=B, calcular e imprimir la suma 10+14+18+…+50  Si A/B<=30, calcular e imprimir el valor de (A^2+B^2)
+l)Introducir los valores A, B y C:  Si A/B>30, calcular e imprimir A/C * B^3 Si A/B<=30, calcular e imprimir 2^2+4^2+6^2+…+30^2

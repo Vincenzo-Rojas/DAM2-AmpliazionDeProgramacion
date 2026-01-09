@@ -1,0 +1,6 @@
+Ejercicios más dificiles 2
+
+1. Escribe un método que reciba un número y devuelva si es primo o no
+2. Escribe un método que reciba 2 números y muestre todos los números primos que hay entre esos dos números, ambos incluidos
+3. Escribe un método que reciba una fecha (pueden ser 3 números representando el día, el mes y año) y devuelva si la fecha es válida o no
+4. Escribe un método que reciba 2 fechas y devuelva el número de días que hay entre las dos fechas
