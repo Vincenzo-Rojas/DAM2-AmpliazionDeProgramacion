@@ -215,16 +215,76 @@ print("Ej20 Matriz:\n", arr20)
 print("Ej20 Maximos por fila:", max_vals)
 print("Ej20 Posicion de maximos por fila:", max_pos)
 
-'''
+
 ### Nivel Intermedio (21-30)
-21. Usa broadcasting para sumar un vector fila a cada fila de una matriz 10×5.
-22. Crea dos matrices 3×3 aleatorias y calcula su producto matricial (usa `@` o `np.matmul`).
-23. Dada una matriz 10×10, extrae la diagonal principal y las dos diagonales por encima y debajo de ella.
-24. Genera un array 1D de 20 elementos y redondea cada elemento al entero más cercano.
-25. Crea un array de forma (6, 7, 8) y calcula la suma a lo largo del eje 1.
-26. Encuentra los valores únicos y sus conteos en el array:  'arr = np.array([1,2,1,3,2,4,5,2,3,1,5,5])`
-27. Usa `np.where` para crear un array que sea 1 donde los valores sean mayores que 0.5 y -1 en caso contrario (sobre un array aleatorio).
-28. Implementa la función de distancia euclidiana entre dos arrays 1D sin usar bucles ni `np.linalg.norm`.
-29. Genera 1000 puntos aleatorios en 2D (matriz 1000×2) y encuentra cuál está más cerca del origen (0,0).
-30. Crea una matriz 100×100 y reemplaza todos los elementos de las columnas pares por sus valores al cuadrado y los de las columnas impares por su raíz cuadrada.
-'''
+print("Ejercicios Nivel Intermedio (21-30)")
+
+#21. Usa broadcasting para sumar un vector fila a cada fila de una matriz 10×5.
+mat21 = np.random.randint(0, 10, (10, 5))
+vec21 = np.arange(5)
+ej21 = mat21 + vec21
+print("Ej21 Matriz:\n", mat21)
+print("Ej21 Vector:", vec21)
+print("Ej21 Resultado:\n", ej21)
+
+#22. Crea dos matrices 3×3 aleatorias y calcula su producto matricial (usa `@` o `np.matmul`).
+a22 = np.random.randint(0, 10, (3, 3))
+b22 = np.random.randint(0, 10, (3, 3))
+ej22 = a22 @ b22
+print("Ej22 A:\n", a22)
+print("Ej22 B:\n", b22)
+print("Ej22 Producto:\n", ej22)
+
+#23. Dada una matriz 10×10, extrae la diagonal principal y las dos diagonales por encima y debajo de ella.
+mat23 = np.arange(100).reshape(10, 10)
+diag0 = np.diag(mat23, 0)
+diag1 = np.diag(mat23, 1)
+diag_1 = np.diag(mat23, -1)
+print("Ej23 Matriz:\n", mat23)
+print("Diagonal principal:", diag0)
+print("Diagonal superior:", diag1)
+print("Diagonal inferior:", diag_1)
+
+#24. Genera un array 1D de 20 elementos y redondea cada elemento al entero más cercano.
+arr24 = np.random.uniform(0, 10, 20)
+ej24 = np.rint(arr24)
+print("Ej24 Original:", arr24)
+print("Ej24 Redondeado:", ej24)
+
+#25. Crea un array de forma (6, 7, 8) y calcula la suma a lo largo del eje 1.
+arr25 = np.random.randint(0, 10, (6, 7, 8))
+ej25 = np.sum(arr25, axis=1)
+print("Ej25 Resultado shape:", ej25.shape)
+print("Ej25:\n", ej25)
+
+#26. Encuentra los valores únicos y sus conteos en el array:  'arr = np.array([1,2,1,3,2,4,5,2,3,1,5,5])`
+arr26 = np.array([1,2,1,3,2,4,5,2,3,1,5,5])
+valores, conteos = np.unique(arr26, return_counts=True)
+print("Ej26 Valores:", valores)
+print("Ej26 Conteos:", conteos)
+
+#27. Usa `np.where` para crear un array que sea 1 donde los valores sean mayores que 0.5 y -1 en caso contrario (sobre un array aleatorio).
+arr27 = np.random.random(10)
+ej27 = np.where(arr27 > 0.5, 1, -1)
+print("Ej27 Original:", arr27)
+print("Ej27 Resultado:", ej27)
+
+#28. Implementa la función de distancia euclidiana entre dos arrays 1D sin usar bucles ni `np.linalg.norm`.
+a28 = np.array([1, 2, 3])
+b28 = np.array([4, 5, 6])
+ej28 = np.sqrt(np.sum((a28 - b28) ** 2))
+print("Ej28 Distancia:", ej28)
+
+#29. Genera 1000 puntos aleatorios en 2D (matriz 1000×2) y encuentra cuál está más cerca del origen (0,0).
+puntos29 = np.random.random((1000, 2))
+distancias29 = np.sqrt(np.sum(puntos29 ** 2, axis=1))
+indice_min = np.argmin(distancias29)
+punto_cercano = puntos29[indice_min]
+print("Ej29 Punto mas cercano:", punto_cercano)
+print("Ej29 Distancia:", distancias29[indice_min])
+
+#30. Crea una matriz 100×100 y reemplaza todos los elementos de las columnas pares por sus valores al cuadrado y los de las columnas impares por su raíz cuadrada.
+mat30 = np.random.randint(1, 100, (100, 100))
+mat30[:, ::2] = mat30[:, ::2] ** 2
+mat30[:, 1::2] = np.sqrt(mat30[:, 1::2])
+print("Ej30 Transformacion completada")
